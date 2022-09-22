@@ -764,7 +764,7 @@ public class Action extends BaseClass  {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		String destination = "D:\\Automation_Project\\MyStoreProject\\SreenShot\\" + filename + "_" + dateName + ".png";
+		String destination = "C:\\Users\\Owner\\git\\MyStore\\MyStoreProject\\ScreenShots\\" + filename + "_" + dateName + ".png";
 
 		try {
 			FileUtils.copyFile(source, new File(destination));

@@ -25,15 +25,6 @@
           <include name="orderHistoryandDetailsTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.mystore.testcases.HomePageTest -->
-      <class name="com.mystore.testcases.SearchResultPageTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="tearDown"/>
-          <include name="loadConfig"/>
-          <include name="productAvailabilityTest" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.SearchResultPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

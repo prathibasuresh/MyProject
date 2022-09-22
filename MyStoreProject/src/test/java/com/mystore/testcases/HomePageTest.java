@@ -79,7 +79,7 @@ public class HomePageTest extends BaseClass{
 		loginpage=indexpage.clickOnsignIn();
 		homepage=loginpage.login(uname,pswd,homepage);
 		boolean result=homepage.validateOredrHistory();
-		Assert.assertTrue(result);
+		Assert.assertTrue(false);
 		Log.endTestCase("orderHistoryandDetailsTest");
 	}
 	
